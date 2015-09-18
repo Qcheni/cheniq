@@ -1,0 +1,112 @@
+#gameboard div {
+	padding: 0px;
+	border: 1px solid black;
+}
+
+#gameboard {
+	display: table;
+	margin: auto;
+}
+
+#gameboard .row {
+	display: table-row;
+}
+
+/* all divs inside class .row are cells! */
+#gameboard .row div {
+	display: table-cell;
+	width: 15px;
+	height: 15px;
+}
+
+#gameboard .row div:hover {
+	background-color: Red !important;
+}
+
+#gameboard .empty_cell {
+	background-color: white;
+}
+
+#gameboard .food_cell {
+	background-color: Magenta;
+}
+#onlineplayers {
+	float: left;
+	width: 20%;
+	height: 430px;
+}
+
+input{
+	background-color:  white;
+}
+
+
+button{
+	background-color:  #FAFAFA;
+}
+
+#game {
+	float: left;
+	width: 60%;
+	height: 430px
+}
+#rankings {
+	float: left;
+	width: 20%;
+}
+
+#gameboard .superfood_cell {
+	background-color: Black;
+}
+
+#gameboard .worm_1_cell {
+	background-color: Blue;
+}
+
+#gameboard .worm_2_cell {
+	background-color: ForestGreen;
+}
+
+#gameboard .worm_3_cell {
+	background-color: MediumVioletRed;
+}
+
+#gameboard .worm_4_cell {
+	background-color: Gold;
+}
+
+#score{ 
+	text-align: center; 
+	color :blue; 
+	font-size: 14;
+}
+#gamecontrols{ 
+	text-align: center; 
+}
+#rankings{ 
+	text-align: left; 
+	height: 430px;
+}
+
+a {
+	color: blue;
+}
+
+fieldset{ 
+	background-color: #E6E6E6;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	height: inherit;
+}
+
+legend{ 
+    border:1px solid black;
+    background-color: #FAFAFA;
+}
+
+body {
+	background-color: black;
+}
+
+
